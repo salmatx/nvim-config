@@ -1,3 +1,9 @@
+# Requirements
+
+- JetBrains Mono font
+- NodeJS with npm
+- C compiler set in path and libstdc++ installed
+
 # Usage
 
 ## Option 1 - Clone to default Neovim configuration location
