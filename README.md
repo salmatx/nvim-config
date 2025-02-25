@@ -11,13 +11,13 @@
 ### Linux
 
 ```sh
-git clone https://github.com/salmatx/your-nvim-repo.git ~/.config/nvim
+git clone https://github.com/salmatx/nvim-config.git ~/.config/nvim
 ```
 
 ### Windows
 
 ```sh
-git clone https://github.com/salmatx/your-nvim-repo.git ~/projects/nvim-config
+git clone https://github.com/salmatx/nvim-config.git C:\Users\Username\AppData\Local\nvim
 ```
 
 ## Option 2 - Clone to custom location and redirect by symlink
@@ -25,15 +25,15 @@ git clone https://github.com/salmatx/your-nvim-repo.git ~/projects/nvim-config
 ### Linux
 
 ```sh
-git clone https://github.com/salmatx/your-nvim-repo.git ~/projects/nvim-config
+git clone https://github.com/salmatx/nvim-config.git ~/projects/nvim-config
 ln -s ~/projects/nvim-config ~/.config/nvim
 ```
 
 ### Windows
 
 ```sh
-git clone https://github.com/salmatx/your-nvim-repo.git C:\nvim-config
-New-Item -ItemType Junction -Path "$HOME\AppData\Local\nvim" -Target "C:\nvim-config"
+git clone https://github.com/salmatx/nvim-config.git C:\nvim-config
+New-Item -ItemType Junction -Path "$LOCALAPPDATA\nvim" -Target "C:\nvim-config"
 ```
 
 ## Option 3 - Clone to custom location and use $XDG_CONFIG_HOME
@@ -41,7 +41,7 @@ New-Item -ItemType Junction -Path "$HOME\AppData\Local\nvim" -Target "C:\nvim-co
 ### Linux
 
 ```sh
-git clone https://github.com/salmatx/your-nvim-repo.git ~/projects/nvim-config
+git clone https://github.com/salmatx/nvim-config.git ~/projects/nvim-config
 export XDG_CONFIG_HOME=~/projects/nvim-config
 ```
 
@@ -55,7 +55,7 @@ source ~/.bashrc
 ### Windows
 
 ```sh
-git clone https://github.com/salmatx/your-nvim-repo.git C:\nvim-config
+git clone https://github.com/salmatx/nvim-config.git C:\nvim-config
 $env:XDG_CONFIG_HOME="C:\nvim-config"
 ```
 
