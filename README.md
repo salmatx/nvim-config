@@ -3,6 +3,7 @@
 - JetBrains Mono font
 - NodeJS with npm
 - C compiler set in path and libstdc++ installed
+- Terminal that supports true color and undercurl (kitty, alacritty, wezterm, ghostty, ...)
 
 # Usage
 
